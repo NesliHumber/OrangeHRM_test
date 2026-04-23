@@ -17,10 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_LF_001'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/TC_LF_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_OrangeHRM/ORANGEHRM home nav button'))
+WebUI.click(findTestObject('Page_OrangeHRM/span_Admin'))
 
-WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM All in One HR Software for Businesses/h1_Streamline All Your HR Needs on One Intuitive                                Platform'), 
-    0)
+WebUI.click(findTestObject('Page_OrangeHRM/span_Dashboard'))
+
+WebUI.verifyElementVisible(findTestObject('Page_OrangeHRM/h6_Dashboard'))
 
