@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Objective: Verify user management menu items are visible 
+Steps:
+1. Admin is logged in.
+2. User Management, Job, Organization, Qualifications, Nationalities, Corporate Branding, Configuration options are visible under Admin/User Management header.</description>
+   <name>TC_admin_001</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc73e392-87b7-465c-b532-2b2d286bcd29</testCaseGuid>
+</TestCaseEntity>

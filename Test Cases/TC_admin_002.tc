@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_admin_002</name>
+   <tag>admin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6feec5b-d479-4210-8566-fde14b7002ea</testCaseGuid>
+</TestCaseEntity>
