@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_NAV_005 — Navigate to “Dashboard” from Another Page
+Objective: Verify user can return to dashboard
+Steps:
+Call Test Case → TC_LF_001
+Click → Admin menu
+Click → Dashboard menu
+Verify element present → Dashboard header
+Expected Result: Dashboard is displayed again</description>
+   <name>TC_NAV_005</name>
+   <tag>navigation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4bc5a69e-773b-4c8e-869c-6e8f02ae8894</testCaseGuid>
+</TestCaseEntity>

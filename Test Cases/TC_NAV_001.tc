@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_NAV_002 — Navigate to “Admin” Module
+Objective: Verify user can navigate to Admin page by clicking on Admin button on the left nav bar and Admin / User Management header occurs instesd of Dashboard header
+Steps:
+Call Test Case → TC_LF_001 (Login)
+Click → Admin menu
+Verify element present → Admin header
+Expected Result:
+Admin page loads successfully
+Admin header is visible</description>
+   <name>TC_NAV_001</name>
+   <tag>navigation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dfbf2cbb-ed23-49a7-b068-460740dbfcca</testCaseGuid>
+</TestCaseEntity>

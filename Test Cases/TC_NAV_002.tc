@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify OrangeHRM home nav button (on the left upper corner) works after Admin logs in</description>
+   <name>TC_NAV_002</name>
+   <tag>navigation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9669094c-4f31-4b8a-a548-be9baa153c27</testCaseGuid>
+</TestCaseEntity>

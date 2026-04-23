@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_NAV_003 — Navigate to “PIM” Module
+Objective: Verify navigation to PIM (Personal Information Management module for Employees)
+Steps:
+Call Test Case → TC_LF_001
+Click → PIM menu
+Verify element present → “Employee Information” header
+Expected Result:
+PIM page opens
+Employee list is visible</description>
+   <name>TC_NAV_003</name>
+   <tag>navigation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d3639fcc-60c4-493a-aae0-174fb39cccb1</testCaseGuid>
+</TestCaseEntity>
