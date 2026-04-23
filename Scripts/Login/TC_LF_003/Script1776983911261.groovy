@@ -19,13 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
-
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'Admin')
-
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Password_password'), 'admin123')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
 WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM/h6_Dashboard'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM/span_Required'), 0)
 

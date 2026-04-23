@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_presentation</name>
+   <tag></tag>
+   <elementGuidId>13b68fa1-4a0f-4d25-a9b8-c1ac30cea829</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' orangehrm-quick-launch-icon ') and (@title = 'Assign Leave')]//*[(@data-v-f5c763eb = '') and (@role = 'presentation')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.orangehrm-quick-launch-icon[title=&quot;Assign\ Leave&quot;] [data-v-f5c763eb=&quot;&quot;][role=&quot;presentation&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Assign Leave&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>49730434-d46c-40a7-9966-4a8a305aaaba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>c4079ed3-8631-4f56-9617-6272f5b37352</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>18</value>
+      <webElementGuid>b9ebf79b-77dd-4d62-aa61-862e6228da0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>18</value>
+      <webElementGuid>52826ec8-4797-4584-85bc-8fde953a5b61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 500 500</value>
+      <webElementGuid>0ae44e39-8d9f-429d-8b9e-6fe6731d35d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>a76d70aa-6d11-45d3-9604-9ab480bd0f48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-icon</value>
+      <webElementGuid>fa89b2cf-f270-48b3-a8e9-e88decbde483</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1e96615e22c0a2f26c9e363b994f1ee5</value>
+      <webElementGuid>6c6950cb-0a22-43c0-943a-145f5411e4f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' orangehrm-quick-launch-icon ') and (@title = 'Assign Leave')]//*[(@data-v-f5c763eb = '') and (@role = 'presentation')]</value>
+      <webElementGuid>08baec82-6a27-475a-a4a2-702fda093554</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' orangehrm-quick-launch-icon ') and (@title = 'Assign Leave')]//*[(@data-v-f5c763eb = '') and (@role = 'presentation')]</value>
+      <webElementGuid>0fc6e95c-a778-48ca-834e-d09e47e2e8c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
