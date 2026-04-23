@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>TS_002 Login Functionality</description>
-   <name>Login Functionality</name>
+   <description></description>
+   <name>Dashboard Functionality</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>a2105a0c-ed78-44d3-b676-125f169efeac</testSuiteGuid>
+   <testSuiteGuid>710f7969-2d9c-45f9-8e16-81fd07c8ca2a</testSuiteGuid>
    <testCaseLink>
-      <guid>087327c0-d1c6-4b53-af0c-412c0b5c6e86</guid>
+      <guid>4c924119-be3a-48fc-9341-9caee6dc6e78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC_LF_001</testCaseId>
+      <testCaseId>Test Cases/Dashboard/TC_DF_001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>95f9f302-5c7d-40c7-a07f-e9a41b2a00a4</guid>
+      <guid>80d6e29a-9e72-41f3-b444-598601c36e17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC_LF_003</testCaseId>
+      <testCaseId>Test Cases/Dashboard/TC_DF_002</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d81304a4-92c1-4626-8298-4012a546b3bf</guid>
+      <guid>96365ba2-57ec-476c-ad82-6328def3eb9f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC_LF_002</testCaseId>
+      <testCaseId>Test Cases/Dashboard/TC_DF_003</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
