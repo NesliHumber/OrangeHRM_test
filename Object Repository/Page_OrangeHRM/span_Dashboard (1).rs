@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Dashboard</name>
+   <name>span_Dashboard (1)</name>
    <tag></tag>
-   <elementGuidId>1fd1934c-f08b-4806-8e0a-b2d7e9188429</elementGuidId>
+   <elementGuidId>b897dd29-b2f3-41eb-a4d3-7587415465c8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Dashboard' or . = 'Dashboard')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@href = '/web/index.php/dashboard/index']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
@@ -33,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>49a55e74-44a0-4b6c-ad9d-e02fc0a62806</webElementGuid>
+      <webElementGuid>5bef90b1-5892-4433-a057-154e0d7074fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--span oxd-main-menu-item--name</value>
-      <webElementGuid>1e25f949-f27f-4958-9076-776b45a9451a</webElementGuid>
+      <webElementGuid>3a3a68c2-76ae-4a33-919e-81f28369cf8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,15 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Dashboard</value>
-      <webElementGuid>4b7afb4c-f505-4a9f-acf6-205113a202c5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@href = '/web/index.php/dashboard/index']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
-      <webElementGuid>d18d46b3-0730-4d82-b8a4-444fd1fac508</webElementGuid>
+      <webElementGuid>e104cb1e-eb97-4829-8144-d1550ca04fe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +53,15 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-ef31327c0782e56403314efebf81b37b</value>
-      <webElementGuid>34e9bd74-57d8-4d84-a15b-460dde0dcaa3</webElementGuid>
+      <webElementGuid>09c22c6b-c148-422e-bd30-b9e9bb47ece5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/web/index.php/dashboard/index']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
+      <webElementGuid>2a22fe3c-6447-4249-b464-dc91d32d1168</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@href = '/web/index.php/dashboard/index']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' oxd-main-menu-item--name ')]</value>
-      <webElementGuid>299cfdcd-fc1a-49ed-8c28-712c1b8312c3</webElementGuid>
+      <webElementGuid>7584f7da-a76a-4b93-bb22-47b2fc7c2e61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,30 +77,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Dashboard' or . = 'Dashboard')]</value>
-      <webElementGuid>c40a9e80-de5e-4b7e-9351-2bed531094b5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[8]/a/span</value>
-      <webElementGuid>ba35988c-0b96-454c-91d5-065f78438106</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Dashboard']/parent::*</value>
-      <webElementGuid>505756d5-633d-46a8-a161-9c1808b38476</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li[8]/a/span</value>
-      <webElementGuid>4860d68b-9d51-4be0-ab18-78e2641e0c5b</webElementGuid>
+      <webElementGuid>c2b05f5c-e980-4312-9580-3ce540e70c62</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

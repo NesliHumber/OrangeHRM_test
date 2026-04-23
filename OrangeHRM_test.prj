@@ -9,9 +9,9 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>11.1.2</modifiedVersion>
+   <modifiedVersion>11.1.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/neslihan/Katalon Studio/OrangeHRM_test/OrangeHRM_test.prj</projectFileLocation>
+   <projectFileLocation>/Users/avish/Desktop/katalon/OrangeHRM_test/OrangeHRM_test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

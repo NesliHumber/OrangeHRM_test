@@ -17,11 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_LF_001'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Page_OrangeHRM/span_Admin'))
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.click(findTestObject('Page_OrangeHRM/span_Dashboard'))
+WebUI.setText(findTestObject('Page_OrangeHRM/input_Username'), 'Admin')
 
-WebUI.verifyElementVisible(findTestObject('Page_OrangeHRM/h6_Dashboard'))
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password'), 'hUKwJTbofgPrePvDxiBe5w==')
+
+WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM/p_Invalid credentials'), 0)
 
