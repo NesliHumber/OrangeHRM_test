@@ -21,5 +21,5 @@ WebUI.callTestCase(findTestCase('TC_LF_001'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.click(findTestObject('Page_OrangeHRM/span_Admin'))
 
-WebUI.verifyElementVisible(findTestObject('admin_page_elements/Page_OrangeHRM/div_User Management Job Organization Qualifications NationalitiesCorporate BrandingMore'))
+WebUI.verifyElementVisible(findTestObject('user_management_elements/Page_OrangeHRM/div_User Management Job Organization Qualifications NationalitiesCorporate BrandingMore'))
 
