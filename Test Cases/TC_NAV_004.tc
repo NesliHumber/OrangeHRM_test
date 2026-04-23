@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_NAV_004 — Navigate to “Leave” Module
+Objective: Verify navigation to Leave page
+Steps:
+Call Test Case → TC_LF_001
+Click → Leave menu
+Verify element present → “Leave List” or page header
+
+Expected Result: Leave page loads correctly</description>
+   <name>TC_NAV_004</name>
+   <tag>navigation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63407829-45bd-4fb7-8cae-fe969841d017</testCaseGuid>
+</TestCaseEntity>
