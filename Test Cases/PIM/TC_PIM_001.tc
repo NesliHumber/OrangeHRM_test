@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>View PIM Page</description>
+   <name>TC_PIM_001</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6038285-1178-4133-8640-5612ddc93729</testCaseGuid>
+</TestCaseEntity>

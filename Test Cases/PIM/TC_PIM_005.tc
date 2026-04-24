@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search Invalid Employee</description>
+   <name>TC_PIM_005</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>59c092fa-f033-4157-b789-2d288b309806</testCaseGuid>
+</TestCaseEntity>

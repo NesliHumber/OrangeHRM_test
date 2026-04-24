@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reset Search</description>
+   <name>TC_PIM_004</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08801f8d-928e-4fa5-95c0-ddc22e46b5be</testCaseGuid>
+</TestCaseEntity>

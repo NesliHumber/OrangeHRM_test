@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search Employee Name</description>
+   <name>TC_PIM_002</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bef3e7cb-1d2d-474b-8133-80fe531fe446</testCaseGuid>
+</TestCaseEntity>
