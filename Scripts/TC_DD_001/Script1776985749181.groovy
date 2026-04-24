@@ -19,19 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC_LF_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_OrangeHRM/span_Admin'))
+WebUI.click(findTestObject('Page_OrangeHRM/a_PIM'))
 
-WebUI.verifyElementClickable(findTestObject('admin_page_elements/Page_OrangeHRM/span_User Management', [('variable') : '']))
+WebUI.verifyElementVisible(findTestObject('Page_OrangeHRM/h6_PIM'))
 
-WebUI.verifyElementClickable(findTestObject('admin_page_elements/Page_OrangeHRM/span_Job'))
+WebUI.click(findTestObject('drop_down_elements/Page_OrangeHRM/div_-- Select --'))
 
-WebUI.verifyElementClickable(findTestObject('admin_page_elements/Page_OrangeHRM/span_Organization'))
+WebUI.waitForElementVisible(findTestObject('drop_down_elements/Page_OrangeHRM/div_Freelance'), 5)
 
-WebUI.verifyElementClickable(findTestObject('admin_page_elements/Page_OrangeHRM/span_Qualifications'))
+WebUI.click(findTestObject('drop_down_elements/Page_OrangeHRM/div_Freelance'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementClickable(findTestObject('admin_page_elements/Page_OrangeHRM/a_Nationalities'))
+WebUI.click(findTestObject('drop_down_elements/Page_OrangeHRM/div_-- Select --_1'))
 
-WebUI.verifyElementClickable(findTestObject('admin_page_elements/Page_OrangeHRM/a_Corporate Branding'))
+WebUI.waitForElementVisible(findTestObject('drop_down_elements/Page_OrangeHRM/div_Past Employees Only'), 5)
 
-WebUI.verifyElementClickable(findTestObject('admin_page_elements/Page_OrangeHRM/span_More'))
+WebUI.click(findTestObject('drop_down_elements/Page_OrangeHRM/div_Past Employees Only'))
 

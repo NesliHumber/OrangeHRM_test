@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_DD_001 PIM Dropdown Selection
+Objective: Verify that 4 dropdown elements on the PIM page can be selected successfully
+Steps: 
+1. Admin is logged in.
+2. Click PIM menu
+3. Verify PIM page is displayed (Employee Information header)
+4. Click Employment Status dropdown
+5. Select any value (e.g., Full-Time Permanent)
+6. Click Job Title dropdown
+7. Select any value
+8. Click Sub Unit dropdown
+9. Select any value
+10. Click Include dropdown
+11. Select Current Employees Only (or any option)</description>
+   <name>TC_DD_001</name>
+   <tag>drop_down</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9550aaf8-dc3b-49d3-adc1-87fced93cac6</testCaseGuid>
+</TestCaseEntity>

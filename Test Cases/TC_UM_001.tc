@@ -4,8 +4,8 @@
 Steps:
 1. Admin is logged in.
 2. User Management, Job, Organization, Qualifications, Nationalities, Corporate Branding, Configuration options are visible under Admin/User Management header.</description>
-   <name>TC_admin_001</name>
-   <tag>admin</tag>
+   <name>TC_UM_001</name>
+   <tag>user_management</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>dc73e392-87b7-465c-b532-2b2d286bcd29</testCaseGuid>
