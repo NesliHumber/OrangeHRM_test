@@ -17,9 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_LF_001'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Page_OrangeHRM/a_Leave'))
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.verifyElementVisible(findTestObject('Page_OrangeHRM/h6_Leave'))
+WebUI.setText(findTestObject('Page_OrangeHRM/input_Username'), 'Admin')
+
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
+
+WebUI.click(findTestObject('Page_OrangeHRM/i_oxd-icon bi-stopwatch'))
+
+WebUI.click(findTestObject('Page_OrangeHRM/button_In'))
+
+WebUI.click(findTestObject('Page_OrangeHRM/div_SuccessSuccessfully Saved'))
+
+WebUI.click(findTestObject('Page_OrangeHRM/span_Dashboard'))
+
+WebUI.click(findTestObject('Page_OrangeHRM/svg_presentation'))
+
+WebUI.click(findTestObject('Page_OrangeHRM/span_Dashboard'))
+
+WebUI.click(findTestObject('Page_OrangeHRM/p_manda user'))
+
+WebUI.click(findTestObject('Page_OrangeHRM/a_Logout'))
+
+WebUI.closeBrowser()
 
