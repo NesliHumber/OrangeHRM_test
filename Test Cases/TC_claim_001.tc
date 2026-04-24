@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify View Details button on the Claim page redirects to claim details.</description>
+   <name>TC_claim_001</name>
+   <tag>claim</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87026e0f-bed3-459b-b3d6-54b43511e3dd</testCaseGuid>
+</TestCaseEntity>

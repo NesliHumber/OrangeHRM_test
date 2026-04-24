@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Upgrade button on the Buzz page directs to https://orangehrm.com/open-source/upgrade-to-advanced</description>
+   <name>TC_BUZZ_002</name>
+   <tag>buzz</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bddcaa6a-67fb-4874-8fe3-58f8d34aac3a</testCaseGuid>
+</TestCaseEntity>

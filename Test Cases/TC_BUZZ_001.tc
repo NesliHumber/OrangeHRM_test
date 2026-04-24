@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Admin can write and post &quot;Hello&quot; on the &quot;What's on your mind?&quot;</description>
+   <name>TC_BUZZ_001</name>
+   <tag>buzz</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>446fef20-e768-4e7d-946f-8e9ca8ec516e</testCaseGuid>
+</TestCaseEntity>
